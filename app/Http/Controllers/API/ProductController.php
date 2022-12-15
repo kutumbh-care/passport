@@ -37,6 +37,8 @@ class ProductController extends BaseController
         ]);
         // it's for testing purpose
 
+        //  this is for testing purpose
+
         if($validator->fails()){
             return $this->sendError('Validation Error.', $validator->errors());
         }

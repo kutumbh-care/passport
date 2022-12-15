@@ -1,0 +1,6 @@
+ composer update
+ php artisan passport:install
+
+ php artisan config:clear
+ php artisan key:generate
+php artisan config:clear
